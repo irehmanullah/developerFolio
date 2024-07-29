@@ -179,12 +179,11 @@ const workExperiences = {
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "Nov 2020 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "",
       descBullets: [
         "Spearheaded UI enhancements using React.js in a dynamic startup environment, resulting in a 30% boost in user retention and a 20% increase in user satisfaction ratings.",
         "Orchestrated the development of an innovative ERP system, leading the creation of RESTful APIs and crafting an interactive dashboard that boosted system speed by 40%.",
-        "Achieved system scalability and performance improvements by collaborating with a 50+ person, development QA and Scrum Master team.",
-        "Empowered development teams with CI/CD pipelines, enabling over 20 daily deployments."
+        "Achieved system scalability and performance improvements by collaborating with a 50+ person, development QA and Scrum Master team."
       ]
     },
     {
@@ -192,10 +191,11 @@ const workExperiences = {
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "July 2020 – Oct 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "",
       descBullets: [
         "Adept in building full-stack web applications using the MERN stack (MongoDB, Express.js,React.js, Node.js) and honed problem-solving skills through real-world troubleshooting.",
-        "Deployed applications to cloud platforms such as AWS and Firebase for scalability and reliability, gaining valuable practical experience."
+        "Deployed applications to cloud platforms such as AWS and Firebase for scalability and reliability, gaining valuable practical experience.",
+        "Empowered development teams with CI/CD pipelines, enabling over 20 daily deployments."
       ]
     }
   ]
@@ -213,29 +213,33 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle:
+    "Some Projects and STARTUPS/ COMPANIES THAT I HELPED TO CREATE THEIR TECH.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/vyrill_logo.jpeg"),
+      projectName: "Vyrill",
+      projectDesc:
+        "I worked with Vyrill, a Silicon Valley startup, where I contributed to developing a SaaS platform. This platform generates insights from video reviews, aiding brands and retailers in making data-driven decisions.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+        {name: "Visit Website", url: "http://vyrill.com/"}
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bestplantsl_logo.png"),
+      projectName: "Bestplant",
+      projectDesc:
+        "As a Senior Full Stack Developer working with Bestplant, I contributed to the development of an ERP system that provides smart solutions for advanced factories.",
+      footerLink: [{name: "Visit Website", url: "http://bestplant.com/"}]
+    },
+    {
+      image: require("./assets/images/dev_connector.png"),
+      projectName: "Dev Connector",
+      projectDesc:
+        "Dev Connector is a platform for developers to connect with other developers and share their thoughts by posting and engaging with post from other developers.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        {name: "Visit Website", url: "https://dev-connector-app.web.app/"}
       ]
     }
   ],
