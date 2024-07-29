@@ -38,7 +38,11 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button
+                  text="Contact me"
+                  newTab
+                  href="https://calendly.com/irehmanullah/30min"
+                />
                 {greeting.resumeLink && (
                   <a
                     href={require("./resume.pdf")}

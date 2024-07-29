@@ -23,7 +23,7 @@ const greeting = {
   username: "Rehman Ullah",
   title: "Hi, I'm Rehman",
   subTitle: emoji(
-    "Enthusiastic Full Stack Developer skilled in crafting web applications using JavaScript, TypeScript, React.js, Node.js, and other modern libraries and frameworks."
+    "Full Stack Developer with 4+ years of experience skilled in crafting web applications using JavaScript, TypeScript, React.js, Node.js, and other modern libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -54,9 +54,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Create interactive user interfaces with React.js and Next.js."),
     emoji("⚡ Build and maintain server-side applications with Node.js."),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean."
-    )
+    emoji("⚡ Integration of third party services such as Firebase/ AWS.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -144,7 +142,7 @@ const educationInfo = {
       // logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Board Of Intermediate Education ",
       duration: "2014 - 2016",
-      desc: "Science-focused program emphasizing physics, chemistry, and mathematics. Developed strong analytical skills through problem-solving and practical experiments.",
+      desc: "Science-focused program emphasizing physics, chemistry, and mathematics. Developed strong analytical skills through problem-solving and practical experiments."
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -177,30 +175,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Senior Full Stack Developer",
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      date: "Nov 2020 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Spearheaded UI enhancements using React.js in a dynamic startup environment, resulting in a 30% boost in user retention and a 20% increase in user satisfaction ratings.",
+        "Orchestrated the development of an innovative ERP system, leading the creation of RESTful APIs and crafting an interactive dashboard that boosted system speed by 40%.",
+        "Achieved system scalability and performance improvements by collaborating with a 50+ person, development QA and Scrum Master team.",
+        "Empowered development teams with CI/CD pipelines, enabling over 20 daily deployments."
       ]
     },
     {
-      role: "Front-End Developer",
+      role: "Full Stack Developer Internship",
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
+      date: "July 2020 – Oct 2020",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Adept in building full-stack web applications using the MERN stack (MongoDB, Express.js,React.js, Node.js) and honed problem-solving skills through real-world troubleshooting.",
+        "Deployed applications to cloud platforms such as AWS and Firebase for scalability and reliability, gaining valuable practical experience."
+      ]
+    }
   ]
 };
 
@@ -209,13 +206,13 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -303,7 +300,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -368,7 +365,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
