@@ -234,6 +234,12 @@ const bigProjects = {
       footerLink: [{name: "Visit Website", url: "http://bestplant.com/"}]
     },
     {
+      image: require("./assets/images/owl_img.png"),
+      projectName: "Custom Google Analytics Reports",
+      projectDesc:"I created this SaaS website that processes user website analytics using Google Analytics, generates reports with the help of the OpenAI API, and sends them to users on a weekly, monthly, quarterly, and yearly basis.",
+      // footerLink: [{name: "Visit Website", url: "http://bestplant.com/"}]
+    },
+    {
       image: require("./assets/images/dev_connector.png"),
       projectName: "Dev Connector",
       projectDesc:
